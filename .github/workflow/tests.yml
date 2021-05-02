@@ -16,7 +16,7 @@ jobs:
     - name: setup
       run: |
          command="git clone https://github.com/${{ github.repository }} && \
-                  cd dealii-simplex-workshop-2021 && git fetch origin ${{ github.ref }} && \
+                  cd dealii-9-3-simplex && git fetch origin ${{ github.ref }} && \
                   git checkout FETCH_HEAD && \
                   mkdir build && \ 
                   cd build && \
